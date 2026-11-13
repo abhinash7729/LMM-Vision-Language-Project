@@ -1,0 +1,33 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Downloaded models
+models/
+
+# Model weights
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.token
+
+# Temporary files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db

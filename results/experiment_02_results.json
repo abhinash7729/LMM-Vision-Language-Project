@@ -1,0 +1,44 @@
+{
+    "experiment": "Experiment 02 - Image Preprocessing",
+    "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "input_image": "data\\sample_image.jpg",
+    "image_dimensions": [
+        5041,
+        3361
+    ],
+    "image_mode": "RGB",
+    "prompt": "<|image|>Describe the image and explain its visual features.",
+    "processor_tensor_shapes": {
+        "input_ids": [
+            1,
+            12
+        ],
+        "attention_mask": [
+            1,
+            12
+        ],
+        "cross_attention_mask": [
+            1,
+            12,
+            1,
+            4
+        ],
+        "pixel_values": [
+            1,
+            1,
+            4,
+            3,
+            560,
+            560
+        ],
+        "aspect_ratio_ids": [
+            1,
+            1
+        ],
+        "aspect_ratio_mask": [
+            1,
+            1,
+            4
+        ]
+    }
+}

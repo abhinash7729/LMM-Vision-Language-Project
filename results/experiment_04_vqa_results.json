@@ -1,0 +1,33 @@
+{
+    "experiment": "Experiment 04 - Visual Question Answering",
+    "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "execution_device": "cpu",
+    "gpu": "Not available",
+    "input_image": "C:\\Users\\KIIT\\LMM_Vision_Language_Project\\data\\input_image.jpg",
+    "image_dimensions": [
+        1024,
+        768
+    ],
+    "execution_date": "2026-11-13T02:21:48.481871",
+    "number_of_questions": 3,
+    "results": [
+        {
+            "question_number": 1,
+            "question": "What are the main objects or people visible in this image?",
+            "answer": "The main object visible in this image is a small brown dog sitting in the grass. The dog is the only object visible in the image.",
+            "execution_time_seconds": 678.74
+        },
+        {
+            "question_number": 2,
+            "question": "What activity or event is taking place in the image?",
+            "answer": "The image shows a dog sitting in a field of grass. The dog is looking at the camera, and the background is out of focus, but it appears to be a natural setting, possibly a park or a field. There is no activity or event taking place in the image, as it seems to be a still life of a dog in a natural setting.",
+            "execution_time_seconds": 1597.33
+        },
+        {
+            "question_number": 3,
+            "question": "Describe the background and surroundings of the image.",
+            "answer": "The image features a small, brown dog sitting in a lush grassy field. The dog, positioned centrally, has a short, scruffy coat with a distinctive white patch on its chest. Its ears are slightly pointed, and its dark brown nose is prominent. A collar adorns its neck, although the tag is not visible. The dog's gaze is directed towards the camera, with its head slightly turned to the left.\n\nThe surrounding environment is characterized by a vibrant, green grassy field, which",
+            "execution_time_seconds": 2112.0
+        }
+    ]
+}

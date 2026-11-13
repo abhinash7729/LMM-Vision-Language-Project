@@ -1,0 +1,10 @@
+{
+    "experiment": "Interactive LMM image analysis",
+    "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "input_image": "joshua-koblin-eqW1MPinEV4-unsplash.jpg",
+    "question": "What is happening in this image? Explain using visible evidence.",
+    "answer": "The image shows a red Ferrari LaFerrari in a room with white walls and a large window. The car is parked on a tiled floor, facing the left side of the image. It has a sleek, aerodynamic design with a long hood and a short rear deck. The car's body is made of carbon fiber, which gives it a distinctive appearance.\n\nThe car's front end features a large grille and air intakes, while its sides have a series of vents and scoops. The",
+    "execution_time_seconds": 9.08,
+    "inference_device": "cuda:0",
+    "timestamp": "2026-11-13T03:04:14.812967+05:30"
+}
