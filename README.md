@@ -148,6 +148,70 @@ This experiment explores the model's ability to interpret visual context and dis
 
 Result file: `results/experiment_06_visual_reasoning_results.json`
 
+## Experiment 07: Image Comparison and Cross-Image Reasoning
+
+### Objective
+To evaluate the ability of Meta Llama 3.2 11B Vision Instruct to analyze and compare two images, identify similarities and differences, and perform cross-image visual reasoning.
+
+### Methodology
+- Load two input images.
+- Process both images using the Llama 3.2 Vision model.
+- Generate descriptions of each image.
+- Identify common objects, visual similarities, and differences.
+- Compare scene characteristics and relationships.
+- Generate an overall comparative conclusion.
+
+### Technologies Used
+- Python
+- PyTorch
+- Hugging Face Transformers
+- Meta Llama 3.2 11B Vision Instruct
+- Pillow
+- Google Colab
+
+### Files
+- Source code: `src/experiment_07_image_comparison.py`
+- Results: `results/experiment_07_image_comparison_results.json`
+- Report: `reports/experiment_07_image_comparison_report.md`
+
+### Expected Outcome
+A structured comparison of two images, including their descriptions, similarities, differences, and visual reasoning.
+
+---
+
+## Experiment 08: OCR and Text Understanding
+
+### Objective
+To evaluate the ability of Meta Llama 3.2 11B Vision Instruct to recognize, extract, and understand text contained in images.
+
+### Methodology
+- Retrieve the input image directly from the GitHub repository.
+- Input image: `data/text_image.png`.
+- Load the image using Pillow.
+- Process the image using the Llama 3.2 Vision model.
+- Extract visible text while preserving spelling, punctuation, headings, and numbers.
+- Organize the extracted text and provide a summary.
+- Identify uncertain or unreadable text rather than inventing content.
+
+### Technologies Used
+- Python
+- PyTorch
+- Hugging Face Transformers
+- Meta Llama 3.2 11B Vision Instruct
+- Pillow
+- Requests
+- Google Colab
+
+### Files
+- Source code: `src/experiment_08_ocr.py`
+- Results: `results/experiment_08_ocr_results.json`
+- Report: `reports/experiment_08_ocr_report.md`
+- Input image: `data/text_image.png`
+
+### Expected Outcome
+A structured OCR output containing extracted text, document organization, and a summary of the image's textual content.
+
+
 ## Application
 
 The project includes a Streamlit application (`app.py`) that provides an interface for submitting images and requesting visual analysis.
