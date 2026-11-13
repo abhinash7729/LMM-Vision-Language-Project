@@ -163,6 +163,11 @@ Recorded GPU experiments used:
 
 The recorded Tesla T4 configuration applies specifically to Experiments 07 and 08. The saved records for Experiments 05 and 06 do not specify their execution device.
 
+## Google Colab GPU
+
+![Google Colab GPU](images/colab_gpu.png)
+
+
 ### 5.3 Main Python dependencies
 
 The project uses the following libraries:
