@@ -1,0 +1,16 @@
+{
+    "experiment": "Experiment 08 - OCR and Text Understanding",
+    "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "repository": "https://github.com/abhinash7729/LMM-Vision-Language-Project",
+    "input_image": "data/text_image.png",
+    "image_dimensions": [
+        416,
+        480
+    ],
+    "device": "Tesla T4",
+    "quantization": "4-bit",
+    "execution_time_seconds": 16.34,
+    "timestamp": "2026-11-13T10:39:46.610386",
+    "prompt": "\nYou are an advanced image understanding and OCR assistant.\n\nAnalyze the text visible in the supplied image.\n\nPerform the following tasks:\n\n1. Extract all clearly visible text.\n2. Preserve the original wording, spelling and punctuation.\n3. Identify headings, paragraphs, numbers and important details.\n4. Organize the extracted text into readable sections.\n5. Identify dates, names, amounts and other important information.\n6. Provide a concise summary of the image content.\n7. Mention any text that is unclear, blurred or unreadable.\n\nImportant instructions:\n\n- Do not invent missing text.\n- Do not assume information that is not visible.\n- Clearly mark uncertain words.\n- Preserve the original language of the text.\n\nReturn the result in a structured format.\n",
+    "model_output": "The image shows a letter to Santa Claus, written in black handwriting on a light blue background. The letter is written in a child's handwriting and reads:\n\nDear Santa,\n\nI have been very good this year and have been thinking of what I would like for Christmas.\n\n1. lego\n2. bicycle\n3. puppy\n\nI am very excited for your visit and will leave out some snacks for you and your reindeer.\n\nLove.\n\nThe letter is written in a child's handwriting and is likely from a young child who is excited for Christmas and has made a list of gifts they would like to receive. The letter is addressed to Santa Claus and includes a list of three items the child would like for Christmas: a lego, a bicycle, and a puppy. The letter also mentions that the child is excited for Santa's visit and will leave out some snacks for him and his reindeer. The letter ends with a simple \"love\" signature."
+}
