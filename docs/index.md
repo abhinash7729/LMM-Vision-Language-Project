@@ -345,6 +345,10 @@ The saved response described a small brown dog sitting in a lush grassy field, w
 | Question 3 | 2,112.00 seconds |
 | **Sum of recorded times** | **4,388.07 seconds** |
 
+## Experiment 04 Wroking
+
+![Experiment 04 Wroking](images/experiment_04.png)
+
 The sum is approximately 73 minutes and 8 seconds. It is the sum of the three recorded question times, not a separately measured end-to-end runtime.
 
 **Evaluation:** The model successfully identified the main subject and described the scene in its responses. The third response was incomplete in the saved JSON.
