@@ -80,40 +80,20 @@ A vision-language model receives visual information and a natural-language instr
 
 ### 4.1 High-level model workflow
 
-```mermaid
-flowchart TD
-    A["User provides an image"] --> B["Image preprocessing"]
-    C["User writes a question or instruction"] --> D["Text tokenization"]
-    B --> E["Vision encoder and visual representations"]
-    D --> F["Text representations"]
-    E --> G["Multimodal model"]
-    F --> G
-    G --> H["Contextual visual-language reasoning"]
-    H --> I["Text generation"]
-    I --> J["Caption, answer, comparison or OCR output"]
-```
+## Model Workflow
+
+![Model Workflow](images/High_Level_Model_Workflow.png)
+
+
 ## High-Level Model Workflow
 
 ![High-Level Model Workflow](images/model_architecture.png)
 
 ### 4.2 Project inference workflow
 
-```mermaid
-flowchart TD
-    A["Python application"] --> B["Load AutoProcessor"]
-    A --> C["Load Llama 3.2 Vision model"]
-    D["Input image"] --> E["Prepare image input"]
-    F["Prompt / question"] --> G["Apply chat template"]
-    E --> H["Processor"]
-    G --> H
-    B --> H
-    H --> I["Model input tensors"]
-    C --> J["Model inference"]
-    I --> J
-    J --> K["Generated tokens"]
-    K --> L["Decode generated response"]
-    L --> M["Save experiment output as JSON or TXT"]
-```
+## Model Workflow
+
+![Model Workflow](images/Project_inference_workflow.png)
 
 The diagrams describe the project's high-level workflow. They are conceptual representations, not a layer-by-layer reconstruction of Meta's internal model architecture.
 
