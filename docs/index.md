@@ -92,6 +92,9 @@ flowchart TD
     H --> I["Text generation"]
     I --> J["Caption, answer, comparison or OCR output"]
 ```
+## High-Level Model Workflow
+
+![High-Level Model Workflow](images/model_architecture.png)
 
 ### 4.2 Project inference workflow
 
